@@ -1,0 +1,18 @@
+npm install bootstrap@5.3.0-alpha1
+
+ng generate component MyComponent/todos
+
+npm install jquery -- save
+
+ng generate component MyComponent/todo-item
+
+ng g c MyComponent/add-todo
+
+ng g c MyComponent/about
+
+ng build --prod
+
+npm install -g @angular/cli@latest
+
+
+ng build --configuration=production
